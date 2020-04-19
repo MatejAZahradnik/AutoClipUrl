@@ -28,9 +28,6 @@ class actions:
             short = s.dagd.short(link)
             copy(short)
 """
-    def turnAutoOn():
-        actions.auto = True
-
 
 
 class debug:
@@ -58,6 +55,7 @@ menu.addAction(short)
 
 """
 # AtuShorten Links In Clipbrd
+# Experimental Feature, don't even know how to code it yet :\
 autoshort = QAction('AutoShort')
 autoshort.triggered.connect(actions.autoshort)
 menu.addAction(autoshort)
